@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whole_wrapper .nav {
+  padding: 20px;
+  background-color: #0d6efd;
+  display: flex;
+  justify-content: center;
+}
+.whole_wrapper .nav .nav-main {
+  color: #fff;
+}
+.whole_wrapper .nav .nav-main .alertSpace {
+  font-size: 14px;
+  background: #fff;
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: #0d6efd;
+  cursor: pointer;
+}
+.whole_wrapper .success-alert {
+  background: #3cb13c;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-left: 3px solid #018301;
+  color: #fff;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+}
+.whole_wrapper .remove-btn {
+  padding: 2px 8px;
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 13px;
+  border-radius: 50px;
+  transition: 0.09s;
+  cursor: pointer;
+}
+.whole_wrapper .remove-btn:hover {
+  background-color: #dc3545;
+}
+.whole_wrapper .product-app {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+}
+.whole_wrapper .product-app .product-block .product-sub {
+  display: flex;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 5px 5px 10px rgb(231, 231, 231);
+  border-radius: 5px;
+}
+.whole_wrapper .product-app .product-block .product-sub .input-foodBlock {
+  width: 500px;
+  height: 40px;
+  outline: none;
+  border: 1px solid ghostwhite;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+}
+.whole_wrapper .product-app .product-block .overFood {
+  color: #747272;
+  font-size: 16px;
+  padding: 0;
+  background: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(231, 231, 231);
+}
+.whole_wrapper .product-app .product-block .overFood .emptyList {
+  text-align: center;
+}
+.whole_wrapper .product-app .product-block .overFood .emptyList img {
+  width: 250px;
+}
+.whole_wrapper .product-app .product-block .food-items {
+  list-style: none;
+  text-transform: capitalize;
+  padding-left: 0;
+}
+.whole_wrapper .product-app .product-block .food-items .food-item {
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.09s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.whole_wrapper .product-app .product-block .food-items .food-item:hover {
+  background-color: rgb(79, 123, 255);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+}
+.whole_wrapper .product-app .product-block .food-items .food-item:hover .xBtn {
+  background: #f13131;
+}
+.whole_wrapper .product-app .product-block .food-items .food-item .xBtn {
+  font-size: 12px;
+  padding: 5px 11px;
+  border-radius: 50px;
+}
+
+.product-subCopy {
+  width: 100%;
+  transition: all 1s;
+}
+.product-subCopy.hide {
+  width: 0;
+  opacity: 0;
+  height: 0;
+}
+
+.formEle {
+  background-color: ghostwhite;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  border: 1px solid #000;
+}
+table th, table td {
+  border: 1px solid red;
+}
+table tr.active {
+  background-color: Blue;
+  color: #fff;
+}
+
+.form-main {
+  background-color: ghostwhite;
+}
+.form-main .form-mainBlock {
+  margin-top: 20px;
+}
+.form-main .form-head {
+  background-color: rgb(168, 167, 167);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.form-main .form-head .levelTwo {
+  color: #fff;
+}
+.form-main .feedback {
+  background-color: #3cb13c;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form-main .feedback .feedback-main {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-main .feedback .feedback-main .inputFull, .form-main .feedback .feedback-main .inputMain, .form-main .feedback .feedback-main .country {
+  width: 500px;
+  padding: 5px 10px;
+  border: none;
+  background: #dee2e6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.form-main .feedback .feedback-main .inputMain {
+  width: 240px;
+}
+.form-main .feedback .feedback-main .country {
+  width: 240px;
+}
+.form-main .feedback .feedback-main .checkmain {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.form-main .feedback .feedback-main .checkmain .checkSub {
+  display: flex;
+  align-items: center;
+}
+
+input[type=radio] {
+  width: 18px;
+  height: 18px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.textArea {
+  padding: 10px 10px;
+  border: none;
+  background: #dee2e6;
+  border-radius: 5px;
+}
+
+.foodCount {
+  font-size: 14px;
+  font-weight: 700;
+  color: black;
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
